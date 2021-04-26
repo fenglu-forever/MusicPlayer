@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:checkedButton="@+id/rbtnMusic"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dp_56"
+        android:paddingEnd="@dimen/dp_56">
+
+        <com.luyuanyuan.muiscplayer.ui.IndicatorRadioButton
+            android:id="@+id/rbtnMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="歌曲"
+            android:textColor="@color/selector_music_list_categoty_color"
+            android:textSize="@dimen/second_title_text_size" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.luyuanyuan.muiscplayer.ui.IndicatorRadioButton
+            android:id="@+id/rbtnAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="专辑"
+            android:textColor="@color/selector_music_list_categoty_color"
+            android:textSize="@dimen/second_title_text_size" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.luyuanyuan.muiscplayer.ui.IndicatorRadioButton
+            android:id="@+id/rbtnCollect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="收藏"
+            android:textColor="@color/selector_music_list_categoty_color"
+            android:textSize="@dimen/second_title_text_size" />
+    </RadioGroup>
+</merge>

@@ -6,6 +6,7 @@
     <color name="common_white">#FCFCFC</color>
     <color name="common_black">#000000</color>
     <color name="common_red">#ED334A</color>
+    <color name="gray">#888888</color>
     <color name="light_gray">#CCCCCC</color>
     <color name="divider">#CCCCCC</color>
 </resources>
